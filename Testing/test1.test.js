@@ -1,7 +1,7 @@
-const stringLength = require('../test1');
+const test1 = require('../test1');
 
 test('return the exact characters in a string', () => {
-  expect(stringLength('testing')).toEqual(7);
-  expect(stringLength('Js')).toEqual(2);
-  expect(stringLength('')).toEqual(0);
+  expect(test1('testing')).toEqual(7);
+  expect(test1('Js')).toEqual(2);
+  expect(test1('')).toEqual(0);
 });

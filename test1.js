@@ -1,3 +1,3 @@
-const stringLength = (string) => string.length;
+const test1 = (string) => string.length;
 
-module.exports = stringLength;
+module.exports = test1;
